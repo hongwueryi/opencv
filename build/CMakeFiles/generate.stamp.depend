@@ -1,0 +1,112 @@
+# CMake generation dependency list for this directory.
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeCInformation.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeFindJavaCommon.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CPack.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CPackComponent.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckLibraryExists.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckSymbolExists.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckTypeSize.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindBLAS.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindGit.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindJNI.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindLAPACK.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindOpenMP.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindPackageMessage.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindPythonInterp.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindThreads.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/TestBigEndian.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Templates/CPackConfig.cmake.in
+E:/Dten/other demo/opencv/build/3rdparty/ffmpeg/ffmpeg_version.cmake
+E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CMakeCCompiler.cmake
+E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake
+E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CMakeRCCompiler.cmake
+E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CMakeSystem.cmake
+E:/Dten/other demo/opencv/opencv/3rdparty/ffmpeg/ffmpeg.cmake
+E:/Dten/other demo/opencv/opencv/3rdparty/ippicv/ippicv.cmake
+E:/Dten/other demo/opencv/opencv/CMakeLists.txt
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVCRTLinkage.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVCompilerOptimizations.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVCompilerOptions.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectApacheAnt.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectCXXCompiler.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectDirectX.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectOpenCL.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectPython.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectTrace.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDetectVTK.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVDownload.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVExtraTargets.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindFrameworks.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindIPP.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindIPPIW.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindLAPACK.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindLibsGUI.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindLibsGrfmt.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindLibsPerf.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindLibsVideo.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindMKL.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindOpenBLAS.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindOpenEXR.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVFindProtobuf.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVGenABI.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVGenAndroidMK.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVGenConfig.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVGenHeaders.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVGenSetupVars.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVInstallLayout.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVMinDepVersions.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVModule.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVPCHSupport.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVPackaging.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVUtils.cmake
+E:/Dten/other demo/opencv/opencv/cmake/OpenCVVersion.cmake
+E:/Dten/other demo/opencv/opencv/cmake/checks/directx.cpp
+E:/Dten/other demo/opencv/opencv/cmake/checks/opencl.cpp
+E:/Dten/other demo/opencv/opencv/cmake/checks/win32uitest.cpp
+E:/Dten/other demo/opencv/opencv/cmake/platforms/OpenCV-Windows.cmake
+E:/Dten/other demo/opencv/opencv/cmake/templates/OpenCVConfig-version.cmake.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/OpenCVConfig.cmake.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/cmake_uninstall.cmake.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/custom_hal.hpp.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/cv_cpu_config.h.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/cvconfig.h.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/opencv_modules.hpp.in
+E:/Dten/other demo/opencv/opencv/cmake/templates/setup_vars_win32.cmd.in
+E:/Dten/other demo/opencv/opencv/cmake/vars/EnableModeVars.cmake
+E:/Dten/other demo/opencv/opencv/modules/core/include/opencv2/core/version.hpp
+E:/Dten/other demo/opencv/opencv/modules/dnn/cmake/init.cmake
+E:/Dten/other demo/opencv/opencv/modules/gapi/cmake/DownloadADE.cmake
+E:/Dten/other demo/opencv/opencv/modules/gapi/cmake/init.cmake
+E:/Dten/other demo/opencv/opencv/modules/highgui/cmake/detect_win32ui.cmake
+E:/Dten/other demo/opencv/opencv/modules/highgui/cmake/init.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_dc1394.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_dshow.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_ffmpeg.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_gstreamer.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_msmf.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/detect_obsensor.cmake
+E:/Dten/other demo/opencv/opencv/modules/videoio/cmake/init.cmake

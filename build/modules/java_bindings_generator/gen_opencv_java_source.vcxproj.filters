@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\build\CMakeFiles\18da6bab8a73f482777fb51050987f18\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Dten\other demo\opencv\build\CMakeFiles\0ab281ddb3589901428c9aafde3d54f0\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\modules\java\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Dten\other demo\opencv\opencv\modules\java\generator\gen_java.py" />
+    <None Include="E:\Dten\other demo\opencv\build\modules\java_bindings_generator\gen_java.json" />
+    <None Include="E:\Dten\other demo\opencv\build\modules\java_bindings_generator\CMakeFiles\gen_opencv_java_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00655EE8-C89C-3636-8815-8752BE6433BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

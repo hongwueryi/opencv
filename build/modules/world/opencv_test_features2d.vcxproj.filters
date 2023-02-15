@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\ocl\test_brute_force_matcher.cpp">
+      <Filter>opencv_features2d\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\ocl\test_feature2d.cpp">
+      <Filter>opencv_features2d\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_affine_feature.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_agast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_akaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_blobdetector.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_brisk.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_invariance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_regression.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_invariance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_regression.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_drawing.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_fast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_keypoints.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_matchers_algorithmic.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_mser.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_nearestneighbors.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_orb.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_sift.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_utils.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_invariance.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_regression.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_invariance.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_regression.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_invariance_utils.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_precomp.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{A2CC91B6-E538-3CF4-AD0B-EF6499157EFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{19A93E04-D824-3137-BB56-D3848545DC58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{EE795991-C17D-3762-A590-83B40A1DFE9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\ocl">
+      <UniqueIdentifier>{0869F317-3C10-3DDB-A2D2-348D8B87B269}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

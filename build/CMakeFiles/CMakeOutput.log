@@ -1,0 +1,857 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2023/2/10 11:35:02。
+节点 1 上的项目“E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.03
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2023/2/10 11:35:03。
+节点 1 上的项目“E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Dten\other demo\opencv\build\CMakeFiles\3.21.1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Dten/other demo/opencv/build/CMakeFiles/3.21.1/CompilerIdC/CompilerIdC.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b3ed5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3ed5.dir\Debug\\" /Fd"cmTC_b3ed5.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  cmTC_b3ed5.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_b3ed5.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9954e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9954e.dir\Debug\\" /Fd"cmTC_9954e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
+  cmTC_9954e.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_9954e.exe
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_825b3.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_825b3.dir\Release\\" /Fd"cmTC_825b3.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_825b3.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_825b3.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_943a3.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_943a3.dir\Release\\" /Fd"cmTC_943a3.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_943a3.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_943a3.exe
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_83142.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83142.dir\Release\\" /Fd"cmTC_83142.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_83142.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_83142.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8057d.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8057d.dir\Release\\" /Fd"cmTC_8057d.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_8057d.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_8057d.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bb5b9.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb5b9.dir\Release\\" /Fd"cmTC_bb5b9.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_bb5b9.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_bb5b9.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_637d8.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_637d8.dir\Release\\" /Fd"cmTC_637d8.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  SIZEOF_SIZE_T.c
+  cmTC_637d8.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_637d8.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7baa4.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_UNSIGNED_LONG.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7baa4.dir\Release\\" /Fd"cmTC_7baa4.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c"
+  cmTC_7baa4.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_7baa4.exe
+
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1cf53.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1cf53.dir\Release\\" /Fd"cmTC_1cf53.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckIncludeFiles\HAVE_INTRIN_H.c"
+  HAVE_INTRIN_H.c
+  cmTC_1cf53.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_1cf53.exe
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b81ea.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b81ea.dir\Release\\" /Fd"cmTC_b81ea.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_b81ea.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_b81ea.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dff11.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dff11.dir\Release\\" /Fd"cmTC_dff11.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_dff11.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_dff11.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c2d73.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2d73.dir\Release\\" /Fd"cmTC_c2d73.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_c2d73.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_c2d73.exe
+
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_252ac.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_252ac.dir\Release\\" /Fd"cmTC_252ac.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_252ac.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_252ac.exe
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe500.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe500.dir\Release\\" /Fd"cmTC_fe500.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_fe500.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_fe500.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6e036.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e036.dir\Release\\" /Fd"cmTC_6e036.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_6e036.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_6e036.exe
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2bb88.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bb88.dir\Release\\" /Fd"cmTC_2bb88.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_2bb88.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_2bb88.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_65603.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65603.dir\Release\\" /Fd"cmTC_65603.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_65603.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_65603.exe
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f57ad.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D C_HAS_inline /D inline=inline /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f57ad.dir\Release\\" /Fd"cmTC_f57ad.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  cmTC_f57ad.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_f57ad.exe
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4127b.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4127b.dir\Release\\" /Fd"cmTC_4127b.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_SHORT.c"
+  SIZEOF_SIGNED_SHORT.c
+  cmTC_4127b.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_4127b.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_38236.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_UNSIGNED_SHORT.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38236.dir\Release\\" /Fd"cmTC_38236.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_38236.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_38236.exe
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1ceca.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ceca.dir\Release\\" /Fd"cmTC_1ceca.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_INT.c"
+  SIZEOF_SIGNED_INT.c
+  cmTC_1ceca.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_1ceca.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_28e2c.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_UNSIGNED_INT.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28e2c.dir\Release\\" /Fd"cmTC_28e2c.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c"
+  cmTC_28e2c.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_28e2c.exe
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8c257.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_SIGNED_LONG.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c257.dir\Release\\" /Fd"cmTC_8c257.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG.c"
+  cmTC_8c257.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_8c257.exe
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3f93e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_SIGNED_LONG_LONG.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f93e.dir\Release\\" /Fd"cmTC_3f93e.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG_LONG.c"
+  cmTC_3f93e.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_3f93e.exe
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_11b4c.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11b4c.dir\Release\\" /Fd"cmTC_11b4c.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c"
+  SIZEOF_UNSIGNED_LONG_LONG.c
+  cmTC_11b4c.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_11b4c.exe
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_40796.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_UNSIGNED_CHAR_P.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40796.dir\Release\\" /Fd"cmTC_40796.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c"
+  cmTC_40796.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_40796.exe
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_829fb.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  SIZEOF_PTRDIFF_T.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_829fb.dir\Release\\" /Fd"cmTC_829fb.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\SIZEOF_PTRDIFF_T.c"
+  cmTC_829fb.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_829fb.exe
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f1a90.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=setmode /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1a90.dir\Release\\" /Fd"cmTC_f1a90.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  cmTC_f1a90.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_f1a90.exe
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8db54.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strchr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8db54.dir\Release\\" /Fd"cmTC_8db54.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  cmTC_8db54.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_8db54.exe
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_86b60.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strrchr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86b60.dir\Release\\" /Fd"cmTC_86b60.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  cmTC_86b60.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_86b60.exe
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5ba09.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strstr /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ba09.dir\Release\\" /Fd"cmTC_5ba09.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  cmTC_5ba09.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_5ba09.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_19a2e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19a2e.dir\Release\\" /Fd"cmTC_19a2e.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  cmTC_19a2e.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_19a2e.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7a35e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a35e.dir\Release\\" /Fd"cmTC_7a35e.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  cmTC_7a35e.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_7a35e.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c4196.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtoull /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4196.dir\Release\\" /Fd"cmTC_c4196.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  cmTC_c4196.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_c4196.exe
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_88907.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=lfind /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88907.dir\Release\\" /Fd"cmTC_88907.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  cmTC_88907.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_88907.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_59f63.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D HAVE_SNPRINTF /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59f63.dir\Release\\" /Fd"cmTC_59f63.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  cmTC_59f63.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_59f63.exe
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ab67d.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab67d.dir\Release\\" /Fd"cmTC_ab67d.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_ab67d.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_ab67d.exe
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_67463.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67463.dir\Release\\" /Fd"cmTC_67463.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_67463.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_67463.exe
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_edcab.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_edcab.dir\Release\\" /Fd"cmTC_edcab.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_edcab.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_edcab.exe
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_61902.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61902.dir\Release\\" /Fd"cmTC_61902.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_61902.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_61902.exe
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_53c46.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53c46.dir\Release\\" /Fd"cmTC_53c46.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_53c46.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_53c46.exe
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ae1b2.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae1b2.dir\Release\\" /Fd"cmTC_ae1b2.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_ae1b2.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_ae1b2.exe
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9d068.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d068.dir\Release\\" /Fd"cmTC_9d068.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_9d068.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_9d068.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f7715.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7715.dir\Release\\" /Fd"cmTC_f7715.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_f7715.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_f7715.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a5050.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5050.dir\Release\\" /Fd"cmTC_a5050.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_a5050.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_a5050.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7f7f5.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f7f5.dir\Release\\" /Fd"cmTC_7f7f5.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_7f7f5.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_7f7f5.exe
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c215e.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c215e.dir\Release\\" /Fd"cmTC_c215e.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckIncludeFiles\OPJ_HAVE_MALLOC_H.c"
+  OPJ_HAVE_MALLOC_H.c
+  cmTC_c215e.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_c215e.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe9cc.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe9cc.dir\Release\\" /Fd"cmTC_fe9cc.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_fe9cc.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_fe9cc.exe
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file mfapi.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_15f96.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15f96.dir\Release\\" /Fd"cmTC_15f96.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_15f96.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_15f96.exe
+
+
+
+Determining if the include file vidcap.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_89c82.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89c82.dir\Release\\" /Fd"cmTC_89c82.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_89c82.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_89c82.exe
+
+
+
+Determining if the include file d3d11_4.h exists passed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e3b7d.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3b7d.dir\Release\\" /Fd"cmTC_e3b7d.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_e3b7d.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_e3b7d.exe
+
+
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\build\CMakeFiles\cb1da3a8b597f46c3e6d1739135398b2\bindings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Dten\other demo\opencv\build\CMakeFiles\4c6d8fd441225a73d1ed795a692824c5\gen_opencv_js_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\modules\js\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Dten\other demo\opencv\opencv\modules\js\src\core_bindings.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\Dten\other demo\opencv\opencv\modules\js\generator\embindgen.py" />
+    <None Include="E:\Dten\other demo\opencv\opencv\modules\js\generator\templates.py" />
+    <None Include="E:\Dten\other demo\opencv\build\modules\js_bindings_generator\CMakeFiles\gen_opencv_js_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00655EE8-C89C-3636-8815-8752BE6433BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F832EA91-0F73-3641-80CC-9B911D2795BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

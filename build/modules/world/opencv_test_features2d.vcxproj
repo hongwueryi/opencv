@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E92F11D5-8DC1-3246-8B84-99E2A3108366}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_test_features2d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_features2d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_features2dd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_features2d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_features2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__OPENCV_TESTS=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;_CRT_SECURE_NO_WARNINGS=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__OPENCV_TESTS=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;_CRT_SECURE_NO_WARNINGS=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts470d.lib;..\..\lib\Debug\opencv_world470d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Dten/other demo/opencv/build/bin/Debug/opencv_test_features2dd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Dten/other demo/opencv/build/bin/Debug/opencv_test_features2dd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;__OPENCV_TESTS=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;_CRT_SECURE_NO_WARNINGS=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;__OPENCV_TESTS=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;OPENCV_WITH_ITT=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;_CRT_SECURE_NO_WARNINGS=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\opencv\modules\ts\include;E:\Dten\other demo\opencv\opencv\modules\features2d\include;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\include;E:\Dten\other demo\opencv\opencv\modules\videoio\include;E:\Dten\other demo\opencv\opencv\modules\core\include;E:\Dten\other demo\opencv\opencv\modules\flann\include;E:\Dten\other demo\opencv\opencv\modules\imgproc\include;E:\Dten\other demo\opencv\opencv\modules\ml\include;E:\Dten\other demo\opencv\opencv\modules\photo\include;E:\Dten\other demo\opencv\opencv\modules\dnn\include;E:\Dten\other demo\opencv\opencv\modules\calib3d\include;E:\Dten\other demo\opencv\opencv\modules\highgui\include;E:\Dten\other demo\opencv\opencv\modules\objdetect\include;E:\Dten\other demo\opencv\opencv\modules\stitching\include;E:\Dten\other demo\opencv\opencv\modules\video\include;E:\Dten\other demo\opencv\opencv\modules\gapi\include;E:\Dten\other demo\opencv\opencv\modules\world\include;E:\Dten\other demo\opencv\build\modules\world\test;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_ts470.lib;..\..\lib\Release\opencv_world470.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Dten/other demo/opencv/build/bin/Release/opencv_test_features2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Dten/other demo/opencv/build/bin/Release/opencv_test_features2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\modules\world\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/modules/world/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\opencv\cmake\templates\vs_version.rc.in;E:\Dten\other demo\opencv\opencv\modules\calib3d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\core\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\features2d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\flann\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\gapi\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\imgproc\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\ml\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\objdetect\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\photo\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\stitching\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\video\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/modules/world/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\opencv\cmake\templates\vs_version.rc.in;E:\Dten\other demo\opencv\opencv\modules\calib3d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\core\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\features2d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\flann\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\gapi\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\imgproc\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\ml\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\objdetect\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\photo\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\stitching\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\video\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\ocl\test_brute_force_matcher.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\ocl\test_feature2d.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_affine_feature.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_agast.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_akaze.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_blobdetector.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_brisk.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_invariance.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_regression.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_invariance.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_regression.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_drawing.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_fast.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_keypoints.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_main.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_matchers_algorithmic.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_mser.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_nearestneighbors.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_orb.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_sift.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_utils.cpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_invariance.impl.hpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_descriptors_regression.impl.hpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_invariance.impl.hpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_detectors_regression.impl.hpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_invariance_utils.hpp" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\modules\features2d\test\test_precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{BBC947C8-0BBB-3125-9F28-4C75EC2CD8D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{20F70F8F-AF20-327E-9011-9514F2A2CB73}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\opencv_highgui_plugins.vcxproj">
+      <Project>{CEDB4062-D95B-3A41-A4F0-DD79F03658F1}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{FAA60B02-7A52-3261-A771-ED95B1083595}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{A8CFB341-A2AD-37FD-A71F-72B3386BEEEA}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world.vcxproj">
+      <Project>{94B44D1A-C910-39BD-A54A-FC380636CFF1}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/CheckLibraryExists.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindPackageMessage.cmake
+D:/工具/cmake-3.21.1-windows-x86_64/share/cmake-3.21/Modules/FindThreads.cmake
+E:/Dten/other demo/opencv/opencv/3rdparty/openjpeg/openjp2/CMakeLists.txt

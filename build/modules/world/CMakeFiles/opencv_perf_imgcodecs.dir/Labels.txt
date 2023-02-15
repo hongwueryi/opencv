@@ -1,0 +1,21 @@
+# Target labels
+ Main
+ opencv_imgcodecs
+ PerfTest
+# Source files and their labels
+E:/Dten/other demo/opencv/opencv/modules/imgcodecs/perf/perf_jpeg.cpp
+ Main
+ opencv_imgcodecs
+ PerfTest
+E:/Dten/other demo/opencv/opencv/modules/imgcodecs/perf/perf_main.cpp
+ Main
+ opencv_imgcodecs
+ PerfTest
+E:/Dten/other demo/opencv/opencv/modules/imgcodecs/perf/perf_png.cpp
+ Main
+ opencv_imgcodecs
+ PerfTest
+E:/Dten/other demo/opencv/opencv/modules/imgcodecs/perf/perf_precomp.hpp
+ Main
+ opencv_imgcodecs
+ PerfTest

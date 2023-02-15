@@ -1,0 +1,440 @@
+Determining if the function fseeko exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_225e2.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=fseeko /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_225e2.dir\Release\\" /Fd"cmTC_225e2.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_225e2.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_225e2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_225e2.vcxproj]
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a0d57.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0d57.dir\Release\\" /Fd"cmTC_a0d57.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  OFF64_T.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0d57.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0d57.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0d57.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0d57.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0d57.vcxproj]
+
+
+E:/Dten/other demo/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Looking for a ASM_NASM compiler failed with the following output:
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.19044.
+-- The ASM_NASM compiler identification is unknown
+-- Didn't find assembler
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_ASM_NASM_COMPILER could be found.
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/Dten/other demo/opencv/build/3rdparty/libjpeg-turbo/src/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeOutput.log".
+See also "E:/Dten/other demo/opencv/build/3rdparty/libjpeg-turbo/src/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeError.log".
+
+Determining if the function memmove exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c9679.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=memmove /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9679.dir\Release\\" /Fd"cmTC_c9679.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c(7,3): warning C4391: “char memmove(void)”: 不正确的内部函数返回类型，应为“void” [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_c9679.vcxproj]
+D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c(7,3): warning C4392: “char memmove(void)”: 不正确的内部函数参数个数，应为“3”个参数 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_c9679.vcxproj]
+D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c(17,24): error C2168: “memmove”: 内部函数的实参太少 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_c9679.vcxproj]
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f7590.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strcasecmp /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7590.dir\Release\\" /Fd"cmTC_f7590.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 strcasecmp，函数 main 中引用了该符号 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_f7590.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_f7590.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_f7590.vcxproj]
+
+
+
+Build output check failed:
+    Regex: 'warning D9002'
+    Output line: 'cl : 命令行 warning D9002: 忽略未知选项“-std=c99” [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_17b73.vcxproj]'
+Compilation failed:
+    source file: 'E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP -std=c99'
+===== BUILD LOG =====
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_17b73.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17b73.dir\Release\\" /Fd"cmTC_17b73.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj /bigobj -std=c99 "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\src.c"
+cl : 命令行 warning D9002: 忽略未知选项“-std=c99” [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_17b73.vcxproj]
+  src.c
+  cmTC_17b73.vcxproj -> E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_17b73.exe
+
+
+===== END =====
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0c17d.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c17d.dir\Release\\" /Fd"cmTC_0c17d.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_0c17d.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_07298.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07298.dir\Release\\" /Fd"cmTC_07298.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_07298.vcxproj]
+
+
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6c747.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D _POSIX_C_SOURCE=200112L /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c747.dir\Release\\" /Fd"cmTC_6c747.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,33): error C2065: “posix_memalign”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_6c747.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0cdb5.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cdb5.dir\Release\\" /Fd"cmTC_0cdb5.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,27): error C2065: “memalign”: 未声明的标识符 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_0cdb5.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a0076.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0076.dir\Release\\" /Fd"cmTC_a0076.dir\Release\vc142.pdb" /external:W3 /Gd /TC /wd4819 /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_a0076.vcxproj]
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_87dad.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=sgemm_ /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87dad.dir\Release\\" /Fd"cmTC_87dad.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_87dad.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_87dad.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_87dad.vcxproj]
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_83667.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=sgemm_ /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83667.dir\Release\\" /Fd"cmTC_83667.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\工具\cmake-3.21.1-windows-x86_64\share\cmake-3.21\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+LINK : warning LNK4044: 无法识别的选项“/SSL2”；已忽略 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_83667.vcxproj]
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_83667.vcxproj]
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\Release\cmTC_83667.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_83667.vcxproj]
+
+
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c2ad2.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2ad2.dir\Release\\" /Fd"cmTC_c2ad2.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_c2ad2.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e4bd9.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4bd9.dir\Release\\" /Fd"cmTC_e4bd9.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_e4bd9.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_76b70.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76b70.dir\Release\\" /Fd"cmTC_76b70.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_76b70.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b3c59.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3c59.dir\Release\\" /Fd"cmTC_b3c59.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_b3c59.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8219d.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8219d.dir\Release\\" /Fd"cmTC_8219d.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_8219d.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5e77a.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e77a.dir\Release\\" /Fd"cmTC_5e77a.dir\Release\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h”: No such file or directory [E:\Dten\other demo\opencv\build\CMakeFiles\CMakeTmp\cmTC_5e77a.vcxproj]
+
+
+File E:/Dten/other demo/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

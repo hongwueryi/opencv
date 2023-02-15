@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7CECCD7-707C-35E5-AA8E-3742B293A2B1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\opencv\3rdparty\quirc\include;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\openjpeg\openjp2;E:\Dten\other demo\opencv\build\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libtiff;E:\Dten\other demo\opencv\opencv\3rdparty\libpng;E:\Dten\other demo\opencv\opencv\3rdparty\libwebp\src;E:\Dten\other demo\opencv\build\3rdparty\libjpeg-turbo;E:\Dten\other demo\opencv\opencv\3rdparty\libjpeg-turbo\src;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;E:\Dten\other demo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;E:\Dten\other demo\opencv\build;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\modules\world\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/modules/world/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\opencv\cmake\templates\vs_version.rc.in;E:\Dten\other demo\opencv\opencv\modules\calib3d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\core\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\features2d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\flann\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\gapi\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\imgproc\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\ml\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\objdetect\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\photo\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\stitching\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\video\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/modules/world/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\opencv\cmake\templates\vs_version.rc.in;E:\Dten\other demo\opencv\opencv\modules\calib3d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\core\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;E:\Dten\other demo\opencv\opencv\modules\dnn\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\features2d\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\flann\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\gapi\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\highgui\cmake\plugin.cmake;E:\Dten\other demo\opencv\opencv\modules\imgcodecs\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\imgproc\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\ml\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\objdetect\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\photo\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\stitching\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\video\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\CMakeLists.txt;E:\Dten\other demo\opencv\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\build\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{BBC947C8-0BBB-3125-9F28-4C75EC2CD8D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_calib3d.vcxproj">
+      <Project>{D8DE2934-4FDC-32D7-BFFC-0788D15F486A}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_core.vcxproj">
+      <Project>{79F59414-B502-363E-A741-85479622AD53}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_dnn.vcxproj">
+      <Project>{96D1D94C-E247-3F02-AF3A-1E7FE2D6D98B}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_features2d.vcxproj">
+      <Project>{050A2D1D-75C3-33A7-A4DC-211C96DA32C0}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_gapi.vcxproj">
+      <Project>{3BCE5038-F028-3C1E-9C86-9F944C0AFBCC}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_imgcodecs.vcxproj">
+      <Project>{B4F84F7C-8359-3F14-B362-3DF2F26FEC36}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_imgproc.vcxproj">
+      <Project>{4D766AED-F287-31F5-B170-51329CA06562}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_objdetect.vcxproj">
+      <Project>{D2F8AB78-DA38-3191-A0C1-1755D3121A8E}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_photo.vcxproj">
+      <Project>{86E915B4-A7C0-31FE-920B-ADF2C519D821}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_stitching.vcxproj">
+      <Project>{054AFCE6-5F7A-3DBE-A723-D6F32B093026}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_video.vcxproj">
+      <Project>{F3A13EA8-D173-38E2-B78A-13D866B260F0}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_perf_videoio.vcxproj">
+      <Project>{A700AA6B-3265-3334-A1AE-D2D64F75356D}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_calib3d.vcxproj">
+      <Project>{6D01A6CB-E6AE-3740-9CAE-4D4D915E2467}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core.vcxproj">
+      <Project>{953FD4C7-1B6A-357E-8E42-60CDFCBE747A}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_AVX.vcxproj">
+      <Project>{B3B6D8DE-3E95-39F4-BDD6-977FD1404A10}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_AVX2.vcxproj">
+      <Project>{3CD2FBE8-AA74-3029-BFFB-4BB5BBC9B6FE}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{13575CA6-BC29-3277-9B1E-B7AA570A3927}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_FP16.vcxproj">
+      <Project>{99412684-1C76-338A-A0BD-065D1DE97604}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_SSE2.vcxproj">
+      <Project>{1BB44324-90E7-369B-BEB1-E491567446FB}</Project>
+      <Name>opencv_test_core_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_SSE3.vcxproj">
+      <Project>{6F850A41-0E15-3C4E-AE4A-38D116074DF2}</Project>
+      <Name>opencv_test_core_SSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{67D9C6B7-D6A0-337D-A2A3-5C3905681CA9}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{9271017C-A4DD-31B1-9F65-BFC125D884E7}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_dnn.vcxproj">
+      <Project>{C8898B4F-FDB1-3914-BD8F-FCCEC566B87B}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_features2d.vcxproj">
+      <Project>{E92F11D5-8DC1-3246-8B84-99E2A3108366}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_flann.vcxproj">
+      <Project>{B90441CA-7CB0-36E4-BB01-13D5B0192BC1}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_gapi.vcxproj">
+      <Project>{AF4F7A09-6BE8-3DF6-A032-53D653BF1883}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_highgui.vcxproj">
+      <Project>{20936E9B-1ADE-37E0-8D27-E618B08EADC7}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_imgcodecs.vcxproj">
+      <Project>{88A3BCFA-247E-3974-AFB5-369D04CCD19C}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_imgproc.vcxproj">
+      <Project>{492134D7-96FD-3F67-A92F-65E0AD2F74DD}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_ml.vcxproj">
+      <Project>{D34F854A-A660-33BB-AB72-C880F2085283}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_objdetect.vcxproj">
+      <Project>{AE4726F0-48CB-3939-9AA9-81B123D3A2CE}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_photo.vcxproj">
+      <Project>{46E5EEFA-4E09-3C68-A031-9BD23AEB2302}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_stitching.vcxproj">
+      <Project>{B4F3291F-A12C-3E38-B468-37065A64908B}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_video.vcxproj">
+      <Project>{4EDD033E-C1B6-3426-85CE-1C632A652F6D}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_test_videoio.vcxproj">
+      <Project>{F200E140-ED78-3C10-ACE2-1750CD5686DA}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world.vcxproj">
+      <Project>{94B44D1A-C910-39BD-A54A-FC380636CFF1}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{48089379-8FA9-358A-AEC7-4F1DD85C192A}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world_AVX2.vcxproj">
+      <Project>{E3484CFA-7E36-3B47-ACCD-FB546E29EE86}</Project>
+      <Name>opencv_world_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world_AVX512_SKX.vcxproj">
+      <Project>{3F724C96-8103-3378-919C-D72A46798C7F}</Project>
+      <Name>opencv_world_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{3D1D900B-6679-3390-ADD0-FFE7C74D0702}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{FC83F7FC-6487-3568-8240-353CBB4F3F4A}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

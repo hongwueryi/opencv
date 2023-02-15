@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+E:/Dten/other demo/opencv/opencv/modules/core/misc/python/package/mat_wrapper/__init__.py
+E:/Dten/other demo/opencv/opencv/modules/core/misc/python/package/utils/__init__.py
+E:/Dten/other demo/opencv/opencv/modules/gapi/misc/python/package/gapi/__init__.py
+E:/Dten/other demo/opencv/opencv/modules/python/bindings/CMakeLists.txt
+E:/Dten/other demo/opencv/opencv/modules/python/package/cv2/__init__.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/cv2/load_config_py2.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/cv2/load_config_py3.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/extra_modules/misc/__init__.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/extra_modules/misc/version.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/setup.py
+E:/Dten/other demo/opencv/opencv/modules/python/package/template/config.py.in
+E:/Dten/other demo/opencv/opencv/modules/python/python_loader.cmake

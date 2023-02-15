@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAD5D7C0-F582-3656-9169-03DD26AD253B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>IlmImf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\build\3rdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImfd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\build\3rdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4018;4099;4100;4101;4127;4189;4245;4305;4389;4512;4701;4702;4706;4800;4334;4244;4267;4456;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:\Dten\other demo\opencv\build\3rdparty\lib\Debug\IlmImfd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4018;4099;4100;4101;4127;4189;4245;4305;4389;4512;4701;4702;4706;4800;4334;4244;4267;4456;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>E:\Dten\other demo\opencv\build\3rdparty\lib\Release\IlmImf.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dten\other demo\opencv\build\3rdparty\openexr;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half;E:\Dten\other demo\opencv\build\3rdparty\zlib;E:\Dten\other demo\opencv\opencv\3rdparty\zlib;E:\Dten\other demo\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/3rdparty/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/3rdparty/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmBaseConfig.h.cmakein;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\OpenEXRConfig.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dten\other demo\opencv\build\3rdparty\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Dten/other demo/opencv/opencv/3rdparty/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\工具\cmake-3.21.1-windows-x86_64\bin\cmake.exe "-SE:/Dten/other demo/opencv/opencv" "-BE:/Dten/other demo/opencv/build" --check-stamp-file "E:/Dten/other demo/opencv/build/3rdparty/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmBaseConfig.h.cmakein;E:\Dten\other demo\opencv\opencv\3rdparty\openexr\OpenEXRConfig.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dten\other demo\opencv\build\3rdparty\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\eLut.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\half.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\halfExport.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\halfFunction.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\halfLimits.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\toFloat.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\Iex.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexBaseExc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexErrnoExc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexExport.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexForward.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexMacros.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexMathExc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexNamespace.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexThrowErrnoExc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfAcesFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfArray.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfAutoArray.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfB44Compressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfBoxAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCRgbaFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChannelList.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChannelListAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCheckedArithmetic.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChromaticities.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChromaticitiesAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompositeDeepScanLine.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompression.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompressionAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfConvert.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepCompositing.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepFrameBuffer.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepImageState.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepImageStateAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineInputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineOutputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledInputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledOutputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDoubleAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDwaCompressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDwaCompressorSimd.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfEnvmap.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfEnvmapAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfExport.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFastHuf.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFloatAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFloatVectorAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfForward.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFrameBuffer.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFramesPerSecond.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfGenericInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfGenericOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfHeader.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfHuf.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfIO.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputPartData.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputStreamMutex.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInt64.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfIntAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfKeyCode.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfKeyCodeAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfLineOrder.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfLineOrderAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfLut.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMatrixAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMisc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiPartInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiPartOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiView.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfName.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfNamespace.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOpaqueAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOptimizedPixelReading.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputPartData.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputStreamMutex.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPartHelper.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPartType.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPixelType.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPizCompressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPreviewImage.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPreviewImageAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPxr24Compressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRational.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRationalAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRgba.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRgbaFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRgbaYca.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRle.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRleCompressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfScanLineInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfSimd.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStandardAttributes.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStdIO.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStringAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStringVectorAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfSystemSpecific.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTestFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfThreading.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTileDescription.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTileDescriptionAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTileOffsets.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledInputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledInputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledMisc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledOutputFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledOutputPart.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledRgbaFile.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTimeCode.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTimeCodeAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfVecAttribute.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfVersion.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfWav.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfXdr.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfZip.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfZipCompressor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\b44ExpLogTable.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\dwaLookups.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThread.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadExport.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadForward.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadMutex.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadNamespace.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadPool.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadSemaphore.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathBox.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathBoxAlgo.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathColor.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathColorAlgo.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathEuler.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathExc.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathExport.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathForward.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathFrame.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathFrustum.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathFrustumTest.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathFun.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathHalfLimits.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathInt64.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathInterval.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathLimits.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathLine.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathLineAlgo.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathMath.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathMatrix.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathMatrixAlgo.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathNamespace.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathPlane.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathPlatform.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathQuat.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathRandom.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathRoots.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathShear.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathSphere.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathVec.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathVecAlgo.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\build\3rdparty\openexr\IlmBaseConfig.h" />
+    <ClInclude Include="E:\Dten\other demo\opencv\build\3rdparty\openexr\OpenEXRConfig.h" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Half\half.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfAcesFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfB44Compressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfBoxAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCRgbaFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChannelList.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChannelListAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChromaticities.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfChromaticitiesAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompositeDeepScanLine.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompressionAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfCompressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfConvert.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepCompositing.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepFrameBuffer.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepImageStateAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineInputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepScanLineOutputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledInputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDeepTiledOutputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDoubleAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfDwaCompressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfEnvmap.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfEnvmapAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFastHuf.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFloatAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFloatVectorAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFrameBuffer.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfFramesPerSecond.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfGenericInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfGenericOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfHeader.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfHuf.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfIO.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfInputPartData.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfIntAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfKeyCode.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfKeyCodeAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfLineOrderAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfLut.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMatrixAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMisc.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiPartInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiPartOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfMultiView.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOpaqueAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfOutputPartData.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPartType.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPizCompressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPreviewImage.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPreviewImageAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfPxr24Compressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRational.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRationalAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRgbaFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRgbaYca.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRle.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfRleCompressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfScanLineInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStandardAttributes.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStdIO.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStringAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfStringVectorAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfSystemSpecific.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTestFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfThreading.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTileDescriptionAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTileOffsets.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledInputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledInputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledMisc.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledOutputFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledOutputPart.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTiledRgbaFile.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTimeCode.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfTimeCodeAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfVecAttribute.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfVersion.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfWav.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfZip.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\ImfZipCompressor.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmImf\dwaLookups.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThread.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadMutex.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadSemaphore.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\IlmThread\IlmThreadWin32.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathBox.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathFun.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathRandom.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathShear.cpp" />
+    <ClCompile Include="E:\Dten\other demo\opencv\opencv\3rdparty\openexr\Imath\ImathVec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{BBC947C8-0BBB-3125-9F28-4C75EC2CD8D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Dten\other demo\opencv\build\3rdparty\zlib\zlib.vcxproj">
+      <Project>{810A6716-C697-3EE0-82D2-1BEE8C569F68}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
