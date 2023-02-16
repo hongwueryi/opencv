@@ -1,5 +1,163 @@
 #include "func.h"
 
+#include<iostream>
+#include<opencv2\opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+void QuickDemo::dealimg()
+{
+    Mat img = imread(IMG_PATH);
+    Mat imgGray, imgBlur, imgCanny, imgDil, imgErode;
+
+    //转灰度
+    cvtColor(img, imgGray, COLOR_BGR2GRAY);
+
+    //高斯滤波
+    GaussianBlur(img, imgBlur, Size(3, 3), 3, 0);
+
+    //边缘提取
+    Canny(img, imgCanny, 50, 150);
+
+    //膨胀
+    Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3));
+    dilate(imgCanny, imgDil, kernel);
+
+    //腐蚀
+    erode(imgDil, imgErode, kernel);
+
+    namedWindow("img", WINDOW_FREERATIO);
+    namedWindow("img Gray", WINDOW_FREERATIO);
+    namedWindow("img Blur", WINDOW_FREERATIO);
+    namedWindow("img Canny", WINDOW_FREERATIO);
+    namedWindow("img Erode", WINDOW_FREERATIO);
+    namedWindow("img Dil", WINDOW_FREERATIO);
+
+    resizeWindow("img", 280, 320);
+    resizeWindow("img Gray", 1080, 780);
+    resizeWindow("img Blur", 280, 320);
+    resizeWindow("img Canny", 280, 320);
+    resizeWindow("img Dil", 280, 320);
+    resizeWindow("img Erode", 280, 320);
+
+    imshow("img", img);
+    imshow("img Gray", imgGray);
+    imshow("img Blur", imgBlur);
+    imshow("img Canny", imgCanny);
+    imshow("img Dil", imgDil);
+    imshow("img Erode", imgErode);
+
+    waitKey(0);
+}
+
+
+void QuickDemo::changebg(const char* filePath) {
+    Mat src = imread(filePath);
+    if (src.empty()) {
+        printf("not exist img\n");
+        return;
+    }
+    //imshow("src", src);
+
+    //制作kmeans需要的数据
+    int width = src.cols;
+    int height = src.rows;
+    int dims = src.channels();
+    int sampleCount = width * height;//总共的像素点
+    Mat points(sampleCount, dims, CV_32F, Scalar(10));
+    int index = 0;
+    for (int row = 0; row < height; row++) {
+        for (int col = 0; col < width; col++) {
+            index = row * width + col;
+            Vec3b bgr = src.at<Vec3b>(row, col);
+            points.at<float>(index, 0) = static_cast<int>(bgr[0]);
+            points.at<float>(index, 1) = static_cast<int>(bgr[1]);
+            points.at<float>(index, 2) = static_cast<int>(bgr[2]);
+        }
+    }
+
+
+    int numCluster = 4;//多少个分类
+    Mat labels;//分类标签
+    Mat centers;//中心点
+    TermCriteria criteria = TermCriteria(TermCriteria::EPS + TermCriteria::COUNT, 10, 0.1);
+    kmeans(points, numCluster, labels, criteria, 3, KMEANS_PP_CENTERS, centers);
+
+    //创建遮罩
+    Mat mask = Mat::zeros(src.size(), CV_8UC1);
+    index = src.rows * 2 + 2;//找到背景像素的像素点位置
+    int cIndex = labels.at<int>(index, 0);//找到像素点位置在labels中所对应的标签，找到这个标签以后就可以根据这个标签来判断前景和背景
+    for (int row = 0; row < height; row++) {
+        for (int col = 0; col < width; col++) {
+            index = row * width + col;
+            int label = labels.at<int>(index, 0);
+            if (label == cIndex) {//背景
+                mask.at<uchar>(row, col) = 0;
+            }
+            else {//前景
+                mask.at<uchar>(row, col) = 255;
+            }
+        }
+    }
+    //imshow("mask", mask);
+
+    //使用形态学腐蚀操作取出遮罩中的可能干扰正常结果的白点
+    Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3), Point(-1, -1));
+    erode(mask, mask, kernel);
+    //使用高斯模糊平滑边缘像素
+    GaussianBlur(mask, mask, Size(3, 3), 0, 0);
+
+    //执行图像像素融合，执行最终的背景替换
+    //定义背景颜色
+    Vec3b bgColor;
+    bgColor[0] = 0;//rng.uniform(0, 255);
+    bgColor[1] = 0;// rng.uniform(0, 255);
+    bgColor[2] = 255;
+
+    Mat result = Mat::zeros(src.size(), CV_8UC3);//定义一个空的彩色图片
+
+    //下面是背景融合的代码
+    double w = 0.0;
+    int b = 0, g = 0, r = 0;
+    int b1 = 0, g1 = 0, r1 = 0;
+    int b2 = 0, g2 = 0, r2 = 0;
+    for (int row = 0; row < height; row++) {
+        for (int col = 0; col < width; col++) {
+            int pix = mask.at<uchar>(row, col);//获取像素值
+            if (pix == 255) {//前景
+                result.at<Vec3b>(row, col) = src.at<Vec3b>(row, col);
+            }
+            else if (pix == 0) {//背景
+                result.at<Vec3b>(row, col) = bgColor;
+            }
+            else {//需要像素融合的部分
+                w = pix / 255.0;//权重
+                b1 = src.at<Vec3b>(row, col)[0];
+                g1 = src.at<Vec3b>(row, col)[1];
+                r1 = src.at<Vec3b>(row, col)[2];
+
+                b2 = bgColor[0];
+                g2 = bgColor[1];
+                r2 = bgColor[2];
+
+                b = b1 * w + b2 * (1.0 - w);
+                g = g1 * w + g2 * (1.0 - w);
+                r = r1 * w + r2 * (1.0 - w);
+
+                result.at<Vec3b>(row, col)[0] = b;
+                result.at<Vec3b>(row, col)[1] = g;
+                result.at<Vec3b>(row, col)[2] = r;
+            }
+
+        }
+    }
+    //namedWindow("result", WINDOW_FREERATIO);
+    //resizeWindow("result", 1080, 780);
+    //imshow("result", result);
+    imwrite(IMG_OUTPUT_PATH3, result);
+}
+
 void QuickDemo::colorSpace_Demo(Mat& image)
 {
     Mat gray, hsv;//定义2个矩阵类的图像gray和hsv, HSV 色彩模型（Hue 色度, Saturation 饱和度, Value纯度）

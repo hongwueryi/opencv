@@ -26,5 +26,8 @@
     <ClInclude Include="func.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="v.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

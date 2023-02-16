@@ -21,11 +21,13 @@ int main()
     */
 
     QuickDemo qd;
+    //qd.dealimg();
+    qd.changebg(IMG_PATH2);
     //qd.colorSpace_Demo(src);
     //qd.random_drawing();
     //qd.alphaBlending();
     //qd.video_demo();
-    qd.face();
+    //qd.face();
     //qd.face2();
 
     
