@@ -148,10 +148,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="func.cpp" />
+    <ClCompile Include="samples\dbt_face_detection.cpp" />
+    <ClCompile Include="samples\drawing.cpp" />
+    <ClCompile Include="samples\qrcode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />
-    <ClInclude Include="v.h" />
+    <ClInclude Include="samples\v.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

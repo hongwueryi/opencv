@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="samples">
+      <UniqueIdentifier>{70a336ca-96c1-4581-a32a-7cf4c597aac5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,13 +24,22 @@
     <ClCompile Include="func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="samples\dbt_face_detection.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\drawing.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\qrcode.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="v.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="samples\v.h">
+      <Filter>samples</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

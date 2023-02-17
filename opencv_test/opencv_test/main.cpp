@@ -22,13 +22,13 @@ int main()
 
     QuickDemo qd;
     //qd.dealimg();
-    qd.changebg(IMG_PATH2);
+    //qd.changebg(IMG_PATH2);
     //qd.colorSpace_Demo(src);
     //qd.random_drawing();
     //qd.alphaBlending();
     //qd.video_demo();
     //qd.face();
-    //qd.face2();
+    qd.face2();
 
     
     waitKey(0);//执行到这句，程序阻塞。参数表示延时时间。单位ms

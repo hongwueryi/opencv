@@ -269,8 +269,8 @@ void QuickDemo::face2()
 {
 #if 1
     dnn::Net net = dnn::readNetFromTensorflow(
-        "E:\\Dten\\other demo\\opencv\\mydemo\\opencv_test\\res\\tensorflow_uint8.pb",
-        "E:\\Dten\\other demo\\opencv\\mydemo\\opencv_test\\res\\tensorflow.pbtxt");
+        "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\tensorflow_uint8.pb",
+        "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\tensorflow.pbtxt");
 #else
     //”–Œ Ã‚
     dnn::Net net = dnn::readNetFromCaffe(
@@ -324,7 +324,7 @@ void QuickDemo::face2()
         float FPS = 1 / run_time;
         putText(frame, format("FPS: %0.2f", FPS), Point(20, 20), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0, 0, 255), 1, 8);
         imshow("face_recognizition", frame);
-        int c = waitKey(1);
+        int c = waitKey(10);
         if (c == 27) {
             break;
         }

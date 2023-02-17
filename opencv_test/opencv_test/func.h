@@ -11,13 +11,13 @@ using namespace cv;
 class QuickDemo //创建一个QuickDemo对象
 {
 public:
-    void dealimg();
+    void dealimg();  //图像处理
     void colorSpace_Demo(Mat& imge); //定义一个类，里面包含输入一个图片，对图片操作
     void random_drawing(); //产生一个随机数字和随机颜色，并且用线条的方式显示出来。 
-    void video_demo();
-    void face();    //人脸识别
-    void face2();    //人脸识别
-    int alphaBlending();  //图片叠加
-    void changebg(const char* filePath);
+    void video_demo();  //播放本地视频文件
+    void face();    //人脸识别，读取本地文件视频数据
+    void face2();    //人脸识别，读取摄像头数据，并显示帧率
+    int alphaBlending();  //图片叠加，两张图合并
+    void changebg(const char* filePath);  //更换证件照背景
 };
 
