@@ -6,11 +6,13 @@ using namespace cv;
 #define VIDEO_PATH_SAVE "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\4k_BAK.mp4"
 #define IMG_PATH "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\test.png"
 #define IMG_PATH2 "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\test2.png"
+#define IMG_PATH3 "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\test3.jpg"
 #define IMG_OUTPUT_PATH3 "E:\\Dten\\other demo\\opencv\\opencv_test\\res\\output.png"
 
 class QuickDemo //创建一个QuickDemo对象
 {
 public:
+    void addText2img();
     void dealimg();  //图像处理
     void colorSpace_Demo(Mat& imge); //定义一个类，里面包含输入一个图片，对图片操作
     void random_drawing(); //产生一个随机数字和随机颜色，并且用线条的方式显示出来。 

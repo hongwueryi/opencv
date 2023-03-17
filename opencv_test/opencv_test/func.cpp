@@ -1,10 +1,34 @@
+#include <Windows.h>
 #include "func.h"
 
 #include<iostream>
 #include<opencv2\opencv.hpp>
 
+
 using namespace std;
 using namespace cv;
+
+std::string UnicodeToUtf8(const std::wstring& wstr)
+{
+    int ansiiLen = WideCharToMultiByte(65001, 0, wstr.c_str(), -1, nullptr, 0, nullptr, nullptr);
+    char* pAssii = (char*)malloc(sizeof(char) * ansiiLen);
+    WideCharToMultiByte(65001, 0, wstr.c_str(), -1, pAssii, ansiiLen, nullptr, nullptr);
+    std::string ret_str = pAssii;
+    free(pAssii);
+    return ret_str;
+}
+
+void QuickDemo::addText2img()
+{
+    Mat image = imread(IMG_PATH3);
+    int lineType = LINE_AA;
+
+    putText(image, "famous", Point(60, 120), FONT_HERSHEY_SIMPLEX, 2, Scalar(255, 255, 255), 5, lineType);
+    putText(image, "peasant", Point(120, 180), FONT_HERSHEY_SIMPLEX, 2, Scalar(255, 255, 255), 5, lineType);
+    putText(image, "worker", Point(180, 240), FONT_HERSHEY_SIMPLEX, 2, Scalar(255, 255, 255), 5, lineType);
+    //imshow("test", image);
+    imwrite(IMG_OUTPUT_PATH3, image);
+}
 
 void QuickDemo::dealimg()
 {
