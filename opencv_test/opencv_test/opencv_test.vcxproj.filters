@@ -33,6 +33,9 @@
     <ClCompile Include="samples\qrcode.cpp">
       <Filter>samples</Filter>
     </ClCompile>
+    <ClCompile Include="recordscreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

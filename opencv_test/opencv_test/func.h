@@ -21,5 +21,8 @@ public:
     void face2();    //人脸识别，读取摄像头数据，并显示帧率
     int alphaBlending();  //图片叠加，两张图合并
     void changebg(const char* filePath);  //更换证件照背景
+
+    //////////////////////////////////////
+    int RecordScreen();
 };
 

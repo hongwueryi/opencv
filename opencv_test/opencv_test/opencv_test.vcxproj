@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="func.cpp" />
+    <ClCompile Include="recordscreen.cpp" />
     <ClCompile Include="samples\dbt_face_detection.cpp" />
     <ClCompile Include="samples\drawing.cpp" />
     <ClCompile Include="samples\qrcode.cpp" />
