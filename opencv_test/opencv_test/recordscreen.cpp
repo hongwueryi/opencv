@@ -3,7 +3,7 @@
 
 #include<iostream>
 #include<opencv2\opencv.hpp>
-#define MAX_FRAMES 200
+#define MAX_FRAMES 2000
 #define MAX_FPS 25.0
 int QuickDemo::RecordScreen()
 {
